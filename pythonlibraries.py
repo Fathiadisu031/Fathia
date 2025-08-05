@@ -22,3 +22,5 @@ if response.status_code == 200:
         print(f"Track Name: {item['trackName']}, Artist: {item['artistName']}")
 else:
     print("Failed to fetch data from the API")
+
+
